@@ -1,0 +1,192 @@
+\hypertarget{class_true_false_question_dialog}{}\section{True\+False\+Question\+Dialog Class Reference}
+\label{class_true_false_question_dialog}\index{True\+False\+Question\+Dialog@{True\+False\+Question\+Dialog}}
+
+
+The True\+Falsequestion class show a dialog with a true/false questions to the user.  
+
+
+
+
+{\ttfamily \#include $<$truefalsequestiondialog.\+h$>$}
+
+Inheritance diagram for True\+False\+Question\+Dialog\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_true_false_question_dialog}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_true_false_question_dialog_a850bdf7d69a11803b8d15aca1cb824d2}{True\+False\+Question\+Dialog}} (Q\+Widget $\ast$parent=nullptr)
+\begin{DoxyCompactList}\small\item\em Fragen\+Dialog. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_true_false_question_dialog_a13880ffef389859e745013274e68db2f}{$\sim$\+True\+False\+Question\+Dialog}} ()
+\item 
+void \mbox{\hyperlink{class_true_false_question_dialog_afaebb5ffe9454a723353562edbbfc892}{text\+Random}} (Q\+String \mbox{\hyperlink{class_true_false_question_dialog_a9793a0edd3a9068536a482d1b136785c}{frage}})
+\end{DoxyCompactItemize}
+\subsection*{Private Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_true_false_question_dialog_a019068d63e7841958129f4e03f363a65}{on\+\_\+push\+Button\+\_\+\+Ja\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em on\+\_\+push\+Button\+\_\+\+Ja\+\_\+clicked show a feedback if the answer was true or false \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_true_false_question_dialog_a54e57d5125256a5ea7c7ee58bbba4a10}{on\+\_\+push\+Button\+\_\+\+Next\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em on\+\_\+push\+Button\+\_\+\+Next\+\_\+clicked show the next question \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_true_false_question_dialog_a3574e49580704a1f20e343b471ca43af}{on\+\_\+push\+Button\+\_\+\+Nein\+\_\+clicked}} ()
+\begin{DoxyCompactList}\small\item\em on\+\_\+push\+Button\+\_\+\+Nein\+\_\+clicked show a feedback if the answer was true or false \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Ui\+::\+Fragen\+Dialog $\ast$ \mbox{\hyperlink{class_true_false_question_dialog_a2432171c1d7d2f3a798389d9a4d464fc}{ui}}
+\item 
+Q\+String \mbox{\hyperlink{class_true_false_question_dialog_a9793a0edd3a9068536a482d1b136785c}{frage}} \mbox{[}25\mbox{]}
+\begin{DoxyCompactList}\small\item\em frage store the questiones that will be showed to the user \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_true_false_question_dialog_a8718800a2ddcab39408d0143e2906685}{index}}
+\begin{DoxyCompactList}\small\item\em indx save the index of the current showed question \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The True\+Falsequestion class show a dialog with a true/false questions to the user. 
+
+\begin{DoxyAuthor}{Author}
+Mohamed 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+22.\+01.\+2019 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+
+
+Definition at line 18 of file truefalsequestiondialog.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_true_false_question_dialog_a850bdf7d69a11803b8d15aca1cb824d2}\label{class_true_false_question_dialog_a850bdf7d69a11803b8d15aca1cb824d2}} 
+\index{True\+False\+Question\+Dialog@{True\+False\+Question\+Dialog}!True\+False\+Question\+Dialog@{True\+False\+Question\+Dialog}}
+\index{True\+False\+Question\+Dialog@{True\+False\+Question\+Dialog}!True\+False\+Question\+Dialog@{True\+False\+Question\+Dialog}}
+\subsubsection{\texorpdfstring{True\+False\+Question\+Dialog()}{TrueFalseQuestionDialog()}}
+{\footnotesize\ttfamily True\+False\+Question\+Dialog\+::\+True\+False\+Question\+Dialog (\begin{DoxyParamCaption}\item[{Q\+Widget $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Fragen\+Dialog. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 4 of file truefalsequestion\+Dialog.\+cpp.
+
+\mbox{\Hypertarget{class_true_false_question_dialog_a13880ffef389859e745013274e68db2f}\label{class_true_false_question_dialog_a13880ffef389859e745013274e68db2f}} 
+\index{True\+False\+Question\+Dialog@{True\+False\+Question\+Dialog}!````~True\+False\+Question\+Dialog@{$\sim$\+True\+False\+Question\+Dialog}}
+\index{````~True\+False\+Question\+Dialog@{$\sim$\+True\+False\+Question\+Dialog}!True\+False\+Question\+Dialog@{True\+False\+Question\+Dialog}}
+\subsubsection{\texorpdfstring{$\sim$\+True\+False\+Question\+Dialog()}{~TrueFalseQuestionDialog()}}
+{\footnotesize\ttfamily True\+False\+Question\+Dialog\+::$\sim$\+True\+False\+Question\+Dialog (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 12 of file truefalsequestion\+Dialog.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_true_false_question_dialog_a019068d63e7841958129f4e03f363a65}\label{class_true_false_question_dialog_a019068d63e7841958129f4e03f363a65}} 
+\index{True\+False\+Question\+Dialog@{True\+False\+Question\+Dialog}!on\+\_\+push\+Button\+\_\+\+Ja\+\_\+clicked@{on\+\_\+push\+Button\+\_\+\+Ja\+\_\+clicked}}
+\index{on\+\_\+push\+Button\+\_\+\+Ja\+\_\+clicked@{on\+\_\+push\+Button\+\_\+\+Ja\+\_\+clicked}!True\+False\+Question\+Dialog@{True\+False\+Question\+Dialog}}
+\subsubsection{\texorpdfstring{on\+\_\+push\+Button\+\_\+\+Ja\+\_\+clicked}{on\_pushButton\_Ja\_clicked}}
+{\footnotesize\ttfamily void True\+False\+Question\+Dialog\+::on\+\_\+push\+Button\+\_\+\+Ja\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+on\+\_\+push\+Button\+\_\+\+Ja\+\_\+clicked show a feedback if the answer was true or false 
+
+
+
+Definition at line 18 of file truefalsequestion\+Dialog.\+cpp.
+
+\mbox{\Hypertarget{class_true_false_question_dialog_a3574e49580704a1f20e343b471ca43af}\label{class_true_false_question_dialog_a3574e49580704a1f20e343b471ca43af}} 
+\index{True\+False\+Question\+Dialog@{True\+False\+Question\+Dialog}!on\+\_\+push\+Button\+\_\+\+Nein\+\_\+clicked@{on\+\_\+push\+Button\+\_\+\+Nein\+\_\+clicked}}
+\index{on\+\_\+push\+Button\+\_\+\+Nein\+\_\+clicked@{on\+\_\+push\+Button\+\_\+\+Nein\+\_\+clicked}!True\+False\+Question\+Dialog@{True\+False\+Question\+Dialog}}
+\subsubsection{\texorpdfstring{on\+\_\+push\+Button\+\_\+\+Nein\+\_\+clicked}{on\_pushButton\_Nein\_clicked}}
+{\footnotesize\ttfamily void True\+False\+Question\+Dialog\+::on\+\_\+push\+Button\+\_\+\+Nein\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+on\+\_\+push\+Button\+\_\+\+Nein\+\_\+clicked show a feedback if the answer was true or false 
+
+
+
+Definition at line 58 of file truefalsequestion\+Dialog.\+cpp.
+
+\mbox{\Hypertarget{class_true_false_question_dialog_a54e57d5125256a5ea7c7ee58bbba4a10}\label{class_true_false_question_dialog_a54e57d5125256a5ea7c7ee58bbba4a10}} 
+\index{True\+False\+Question\+Dialog@{True\+False\+Question\+Dialog}!on\+\_\+push\+Button\+\_\+\+Next\+\_\+clicked@{on\+\_\+push\+Button\+\_\+\+Next\+\_\+clicked}}
+\index{on\+\_\+push\+Button\+\_\+\+Next\+\_\+clicked@{on\+\_\+push\+Button\+\_\+\+Next\+\_\+clicked}!True\+False\+Question\+Dialog@{True\+False\+Question\+Dialog}}
+\subsubsection{\texorpdfstring{on\+\_\+push\+Button\+\_\+\+Next\+\_\+clicked}{on\_pushButton\_Next\_clicked}}
+{\footnotesize\ttfamily void True\+False\+Question\+Dialog\+::on\+\_\+push\+Button\+\_\+\+Next\+\_\+clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [slot]}}
+
+
+
+on\+\_\+push\+Button\+\_\+\+Next\+\_\+clicked show the next question 
+
+
+
+Definition at line 30 of file truefalsequestion\+Dialog.\+cpp.
+
+\mbox{\Hypertarget{class_true_false_question_dialog_afaebb5ffe9454a723353562edbbfc892}\label{class_true_false_question_dialog_afaebb5ffe9454a723353562edbbfc892}} 
+\index{True\+False\+Question\+Dialog@{True\+False\+Question\+Dialog}!text\+Random@{text\+Random}}
+\index{text\+Random@{text\+Random}!True\+False\+Question\+Dialog@{True\+False\+Question\+Dialog}}
+\subsubsection{\texorpdfstring{text\+Random()}{textRandom()}}
+{\footnotesize\ttfamily void True\+False\+Question\+Dialog\+::text\+Random (\begin{DoxyParamCaption}\item[{Q\+String}]{frage }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_true_false_question_dialog_a9793a0edd3a9068536a482d1b136785c}\label{class_true_false_question_dialog_a9793a0edd3a9068536a482d1b136785c}} 
+\index{True\+False\+Question\+Dialog@{True\+False\+Question\+Dialog}!frage@{frage}}
+\index{frage@{frage}!True\+False\+Question\+Dialog@{True\+False\+Question\+Dialog}}
+\subsubsection{\texorpdfstring{frage}{frage}}
+{\footnotesize\ttfamily Q\+String True\+False\+Question\+Dialog\+::frage\mbox{[}25\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+frage store the questiones that will be showed to the user 
+
+
+
+Definition at line 56 of file truefalsequestiondialog.\+h.
+
+\mbox{\Hypertarget{class_true_false_question_dialog_a8718800a2ddcab39408d0143e2906685}\label{class_true_false_question_dialog_a8718800a2ddcab39408d0143e2906685}} 
+\index{True\+False\+Question\+Dialog@{True\+False\+Question\+Dialog}!index@{index}}
+\index{index@{index}!True\+False\+Question\+Dialog@{True\+False\+Question\+Dialog}}
+\subsubsection{\texorpdfstring{index}{index}}
+{\footnotesize\ttfamily int True\+False\+Question\+Dialog\+::index\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+indx save the index of the current showed question 
+
+
+
+Definition at line 61 of file truefalsequestiondialog.\+h.
+
+\mbox{\Hypertarget{class_true_false_question_dialog_a2432171c1d7d2f3a798389d9a4d464fc}\label{class_true_false_question_dialog_a2432171c1d7d2f3a798389d9a4d464fc}} 
+\index{True\+False\+Question\+Dialog@{True\+False\+Question\+Dialog}!ui@{ui}}
+\index{ui@{ui}!True\+False\+Question\+Dialog@{True\+False\+Question\+Dialog}}
+\subsubsection{\texorpdfstring{ui}{ui}}
+{\footnotesize\ttfamily Ui\+::\+Fragen\+Dialog$\ast$ True\+False\+Question\+Dialog\+::ui\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line 51 of file truefalsequestiondialog.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{truefalsequestiondialog_8h}{truefalsequestiondialog.\+h}}\item 
+\mbox{\hyperlink{truefalsequestion_dialog_8cpp}{truefalsequestion\+Dialog.\+cpp}}\end{DoxyCompactItemize}

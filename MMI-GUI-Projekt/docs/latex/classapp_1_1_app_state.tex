@@ -1,0 +1,395 @@
+\hypertarget{classapp_1_1_app_state}{}\section{app\+:\+:App\+State Class Reference}
+\label{classapp_1_1_app_state}\index{app\+::\+App\+State@{app\+::\+App\+State}}
+
+
+This Class Stores the state of the application, for Examble the current tool and it Use default values for all member variables.  
+
+
+
+
+{\ttfamily \#include $<$appstate.\+h$>$}
+
+Inheritance diagram for app\+:\+:App\+State\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classapp_1_1_app_state}
+\end{center}
+\end{figure}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{classapp_1_1_app_state_aa641298e5827611da2512591c4a0e966}{Tool}} \{ \mbox{\hyperlink{classapp_1_1_app_state_aa641298e5827611da2512591c4a0e966aa9aa485597b649cc4db197bb200d95dc}{R\+E\+C\+T\+A\+N\+G\+LE}}, 
+\mbox{\hyperlink{classapp_1_1_app_state_aa641298e5827611da2512591c4a0e966a112f1d74b0e0ce3d3284a1335a8f55e6}{C\+I\+R\+C\+LE}}, 
+\mbox{\hyperlink{classapp_1_1_app_state_aa641298e5827611da2512591c4a0e966a11b967f8a13bcf8ea0e5b4d068b62094}{S\+Q\+U\+A\+RE}}
+ \}
+\begin{DoxyCompactList}\small\item\em Tool Enum, Possible shapes. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classapp_1_1_app_state_a65d839605a7f6926bc2d46534b20ec8c}{set\+Selected\+Tool}} (\mbox{\hyperlink{classapp_1_1_app_state_aa641298e5827611da2512591c4a0e966}{Tool}} seleccted\+Tool)
+\item 
+void \mbox{\hyperlink{classapp_1_1_app_state_a3e246deb0691d9b0692da546e65c707c}{set\+Selected\+Color}} (Q\+Color \mbox{\hyperlink{classapp_1_1_app_state_a05c87aa8f14b8689902f8aaa363adcc7}{selected\+Color}})
+\item 
+void \mbox{\hyperlink{classapp_1_1_app_state_ad0d673e923cf52550d08741ccfabbccf}{set\+Selected\+Heigth}} (qreal \mbox{\hyperlink{classapp_1_1_app_state_aaddaf0dbd8c0c99c41968ac6a92709d8}{selected\+Height}})
+\item 
+void \mbox{\hyperlink{classapp_1_1_app_state_aa7d1b711173cc1ccce7b747d493aa549}{set\+Selected\+Width}} (qreal \mbox{\hyperlink{classapp_1_1_app_state_a31ce013025c446fc7c9f807fe17c0375}{selected\+Width}})
+\item 
+void \mbox{\hyperlink{classapp_1_1_app_state_a2ce0da74b5c7c3e307f0b55ca6783c58}{set\+Selected\+Position}} (Q\+Point \mbox{\hyperlink{classapp_1_1_app_state_a9fda13b0d9336fc80b2913453694d4c6}{selected\+Position}})
+\item 
+void \mbox{\hyperlink{classapp_1_1_app_state_a14b1cf39be8be49f16baa526949fd564}{set\+Selected\+Shape}} (Q\+Abstract\+Graphics\+Shape\+Item $\ast$\mbox{\hyperlink{classapp_1_1_app_state_aef0851d3a3c35bb860e43f5dc682d9a7}{selected\+Shape}})
+\end{DoxyCompactItemize}
+\subsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classapp_1_1_app_state_a7c4e871a2fece275654f1dfa4b963119}{selected\+Tool\+Changed}} (\mbox{\hyperlink{classapp_1_1_app_state_aa641298e5827611da2512591c4a0e966}{Tool}})
+\item 
+void \mbox{\hyperlink{classapp_1_1_app_state_afad9c73d20d2ebe623a877eb9558570f}{selected\+Width\+Changed}} (qreal)
+\item 
+void \mbox{\hyperlink{classapp_1_1_app_state_a7780247f4dc81e62f9a12c6f4c733385}{selected\+Height\+Changed}} (qreal)
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classapp_1_1_app_state_a467580496a0d9b8641373c52b4cb3918}{App\+State}} ()
+\item 
+\mbox{\hyperlink{classapp_1_1_app_state_aa641298e5827611da2512591c4a0e966}{Tool}} \mbox{\hyperlink{classapp_1_1_app_state_adcdc7d3fa11e8aecd45baf4f4eb75ef7}{selected\+Tool}} ()
+\item 
+Q\+Color \mbox{\hyperlink{classapp_1_1_app_state_a05c87aa8f14b8689902f8aaa363adcc7}{selected\+Color}} ()
+\item 
+qreal \mbox{\hyperlink{classapp_1_1_app_state_aaddaf0dbd8c0c99c41968ac6a92709d8}{selected\+Height}} ()
+\item 
+qreal \mbox{\hyperlink{classapp_1_1_app_state_a31ce013025c446fc7c9f807fe17c0375}{selected\+Width}} ()
+\item 
+Q\+Point \mbox{\hyperlink{classapp_1_1_app_state_a9fda13b0d9336fc80b2913453694d4c6}{selected\+Position}} ()
+\item 
+Q\+Abstract\+Graphics\+Shape\+Item $\ast$ \mbox{\hyperlink{classapp_1_1_app_state_aef0851d3a3c35bb860e43f5dc682d9a7}{selected\+Shape}} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classapp_1_1_app_state_aa641298e5827611da2512591c4a0e966}{Tool}} \mbox{\hyperlink{classapp_1_1_app_state_a80f8f7a574b269f73119edd2ed96f192}{m\+\_\+selected\+Tool}}
+\begin{DoxyCompactList}\small\item\em Tool of shape. \end{DoxyCompactList}\item 
+Q\+Color \mbox{\hyperlink{classapp_1_1_app_state_a5ad9b96983f21e5718f84d1571f15b7b}{m\+\_\+selected\+Color}}
+\begin{DoxyCompactList}\small\item\em color of shape \end{DoxyCompactList}\item 
+qreal \mbox{\hyperlink{classapp_1_1_app_state_a22f0a67d5db0c430d32306383491d316}{m\+\_\+selected\+Height}} =55
+\begin{DoxyCompactList}\small\item\em height of shape \end{DoxyCompactList}\item 
+qreal \mbox{\hyperlink{classapp_1_1_app_state_ad90790bef930b14bdee28a7fb2988c85}{m\+\_\+selected\+Width}} =55
+\begin{DoxyCompactList}\small\item\em width of shape \end{DoxyCompactList}\item 
+Q\+Point \mbox{\hyperlink{classapp_1_1_app_state_a08af1ba9a3d291aa855e84419588db4f}{m\+\_\+selected\+Position}}
+\begin{DoxyCompactList}\small\item\em position of shape \end{DoxyCompactList}\item 
+Q\+Abstract\+Graphics\+Shape\+Item $\ast$ \mbox{\hyperlink{classapp_1_1_app_state_a02857da24d9d464ea4e1ffcab7f3c5cf}{m\+\_\+selected\+Shape}}
+\begin{DoxyCompactList}\small\item\em shape \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This Class Stores the state of the application, for Examble the current tool and it Use default values for all member variables. 
+
+\begin{DoxyAuthor}{Author}
+Mohamed 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+04.\+12.\+2018 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+0.\+2 
+\end{DoxyVersion}
+
+
+Definition at line 17 of file appstate.\+h.
+
+
+
+\subsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{classapp_1_1_app_state_aa641298e5827611da2512591c4a0e966}\label{classapp_1_1_app_state_aa641298e5827611da2512591c4a0e966}} 
+\index{app\+::\+App\+State@{app\+::\+App\+State}!Tool@{Tool}}
+\index{Tool@{Tool}!app\+::\+App\+State@{app\+::\+App\+State}}
+\subsubsection{\texorpdfstring{Tool}{Tool}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{classapp_1_1_app_state_aa641298e5827611da2512591c4a0e966}{app\+::\+App\+State\+::\+Tool}}}
+
+
+
+Tool Enum, Possible shapes. 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{R\+E\+C\+T\+A\+N\+G\+LE@{R\+E\+C\+T\+A\+N\+G\+LE}!app\+::\+App\+State@{app\+::\+App\+State}}\index{app\+::\+App\+State@{app\+::\+App\+State}!R\+E\+C\+T\+A\+N\+G\+LE@{R\+E\+C\+T\+A\+N\+G\+LE}}}\mbox{\Hypertarget{classapp_1_1_app_state_aa641298e5827611da2512591c4a0e966aa9aa485597b649cc4db197bb200d95dc}\label{classapp_1_1_app_state_aa641298e5827611da2512591c4a0e966aa9aa485597b649cc4db197bb200d95dc}} 
+R\+E\+C\+T\+A\+N\+G\+LE&Rectangle shape. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{C\+I\+R\+C\+LE@{C\+I\+R\+C\+LE}!app\+::\+App\+State@{app\+::\+App\+State}}\index{app\+::\+App\+State@{app\+::\+App\+State}!C\+I\+R\+C\+LE@{C\+I\+R\+C\+LE}}}\mbox{\Hypertarget{classapp_1_1_app_state_aa641298e5827611da2512591c4a0e966a112f1d74b0e0ce3d3284a1335a8f55e6}\label{classapp_1_1_app_state_aa641298e5827611da2512591c4a0e966a112f1d74b0e0ce3d3284a1335a8f55e6}} 
+C\+I\+R\+C\+LE&Circle shape. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{S\+Q\+U\+A\+RE@{S\+Q\+U\+A\+RE}!app\+::\+App\+State@{app\+::\+App\+State}}\index{app\+::\+App\+State@{app\+::\+App\+State}!S\+Q\+U\+A\+RE@{S\+Q\+U\+A\+RE}}}\mbox{\Hypertarget{classapp_1_1_app_state_aa641298e5827611da2512591c4a0e966a11b967f8a13bcf8ea0e5b4d068b62094}\label{classapp_1_1_app_state_aa641298e5827611da2512591c4a0e966a11b967f8a13bcf8ea0e5b4d068b62094}} 
+S\+Q\+U\+A\+RE&Square. \\
+\hline
+
+\end{DoxyEnumFields}
+
+
+Definition at line 25 of file appstate.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classapp_1_1_app_state_a467580496a0d9b8641373c52b4cb3918}\label{classapp_1_1_app_state_a467580496a0d9b8641373c52b4cb3918}} 
+\index{app\+::\+App\+State@{app\+::\+App\+State}!App\+State@{App\+State}}
+\index{App\+State@{App\+State}!app\+::\+App\+State@{app\+::\+App\+State}}
+\subsubsection{\texorpdfstring{App\+State()}{AppState()}}
+{\footnotesize\ttfamily app\+::\+App\+State\+::\+App\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 8 of file appstate.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classapp_1_1_app_state_a05c87aa8f14b8689902f8aaa363adcc7}\label{classapp_1_1_app_state_a05c87aa8f14b8689902f8aaa363adcc7}} 
+\index{app\+::\+App\+State@{app\+::\+App\+State}!selected\+Color@{selected\+Color}}
+\index{selected\+Color@{selected\+Color}!app\+::\+App\+State@{app\+::\+App\+State}}
+\subsubsection{\texorpdfstring{selected\+Color()}{selectedColor()}}
+{\footnotesize\ttfamily Q\+Color app\+::\+App\+State\+::selected\+Color (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Simple getter. \begin{DoxyReturn}{Returns}
+m\+\_\+selected\+Color 
+\end{DoxyReturn}
+
+
+Definition at line 90 of file appstate.\+h.
+
+\mbox{\Hypertarget{classapp_1_1_app_state_aaddaf0dbd8c0c99c41968ac6a92709d8}\label{classapp_1_1_app_state_aaddaf0dbd8c0c99c41968ac6a92709d8}} 
+\index{app\+::\+App\+State@{app\+::\+App\+State}!selected\+Height@{selected\+Height}}
+\index{selected\+Height@{selected\+Height}!app\+::\+App\+State@{app\+::\+App\+State}}
+\subsubsection{\texorpdfstring{selected\+Height()}{selectedHeight()}}
+{\footnotesize\ttfamily qreal app\+::\+App\+State\+::selected\+Height (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Simple getter. \begin{DoxyReturn}{Returns}
+m\+\_\+selected\+Height 
+\end{DoxyReturn}
+
+
+Definition at line 97 of file appstate.\+h.
+
+\mbox{\Hypertarget{classapp_1_1_app_state_a7780247f4dc81e62f9a12c6f4c733385}\label{classapp_1_1_app_state_a7780247f4dc81e62f9a12c6f4c733385}} 
+\index{app\+::\+App\+State@{app\+::\+App\+State}!selected\+Height\+Changed@{selected\+Height\+Changed}}
+\index{selected\+Height\+Changed@{selected\+Height\+Changed}!app\+::\+App\+State@{app\+::\+App\+State}}
+\subsubsection{\texorpdfstring{selected\+Height\+Changed}{selectedHeightChanged}}
+{\footnotesize\ttfamily void app\+::\+App\+State\+::selected\+Height\+Changed (\begin{DoxyParamCaption}\item[{qreal}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+\mbox{\Hypertarget{classapp_1_1_app_state_a9fda13b0d9336fc80b2913453694d4c6}\label{classapp_1_1_app_state_a9fda13b0d9336fc80b2913453694d4c6}} 
+\index{app\+::\+App\+State@{app\+::\+App\+State}!selected\+Position@{selected\+Position}}
+\index{selected\+Position@{selected\+Position}!app\+::\+App\+State@{app\+::\+App\+State}}
+\subsubsection{\texorpdfstring{selected\+Position()}{selectedPosition()}}
+{\footnotesize\ttfamily Q\+Point app\+::\+App\+State\+::selected\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Simple getter. \begin{DoxyReturn}{Returns}
+m\+\_\+selected\+Position 
+\end{DoxyReturn}
+
+
+Definition at line 111 of file appstate.\+h.
+
+\mbox{\Hypertarget{classapp_1_1_app_state_aef0851d3a3c35bb860e43f5dc682d9a7}\label{classapp_1_1_app_state_aef0851d3a3c35bb860e43f5dc682d9a7}} 
+\index{app\+::\+App\+State@{app\+::\+App\+State}!selected\+Shape@{selected\+Shape}}
+\index{selected\+Shape@{selected\+Shape}!app\+::\+App\+State@{app\+::\+App\+State}}
+\subsubsection{\texorpdfstring{selected\+Shape()}{selectedShape()}}
+{\footnotesize\ttfamily Q\+Abstract\+Graphics\+Shape\+Item$\ast$ app\+::\+App\+State\+::selected\+Shape (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Simple getter. \begin{DoxyReturn}{Returns}
+m\+\_\+selected\+Shape 
+\end{DoxyReturn}
+
+
+Definition at line 118 of file appstate.\+h.
+
+\mbox{\Hypertarget{classapp_1_1_app_state_adcdc7d3fa11e8aecd45baf4f4eb75ef7}\label{classapp_1_1_app_state_adcdc7d3fa11e8aecd45baf4f4eb75ef7}} 
+\index{app\+::\+App\+State@{app\+::\+App\+State}!selected\+Tool@{selected\+Tool}}
+\index{selected\+Tool@{selected\+Tool}!app\+::\+App\+State@{app\+::\+App\+State}}
+\subsubsection{\texorpdfstring{selected\+Tool()}{selectedTool()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classapp_1_1_app_state_aa641298e5827611da2512591c4a0e966}{Tool}} app\+::\+App\+State\+::selected\+Tool (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Simple getter \begin{DoxyReturn}{Returns}
+m\+\_\+selected\+Tool 
+\end{DoxyReturn}
+
+
+Definition at line 83 of file appstate.\+h.
+
+\mbox{\Hypertarget{classapp_1_1_app_state_a7c4e871a2fece275654f1dfa4b963119}\label{classapp_1_1_app_state_a7c4e871a2fece275654f1dfa4b963119}} 
+\index{app\+::\+App\+State@{app\+::\+App\+State}!selected\+Tool\+Changed@{selected\+Tool\+Changed}}
+\index{selected\+Tool\+Changed@{selected\+Tool\+Changed}!app\+::\+App\+State@{app\+::\+App\+State}}
+\subsubsection{\texorpdfstring{selected\+Tool\+Changed}{selectedToolChanged}}
+{\footnotesize\ttfamily void app\+::\+App\+State\+::selected\+Tool\+Changed (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classapp_1_1_app_state_aa641298e5827611da2512591c4a0e966}{Tool}}}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+\mbox{\Hypertarget{classapp_1_1_app_state_a31ce013025c446fc7c9f807fe17c0375}\label{classapp_1_1_app_state_a31ce013025c446fc7c9f807fe17c0375}} 
+\index{app\+::\+App\+State@{app\+::\+App\+State}!selected\+Width@{selected\+Width}}
+\index{selected\+Width@{selected\+Width}!app\+::\+App\+State@{app\+::\+App\+State}}
+\subsubsection{\texorpdfstring{selected\+Width()}{selectedWidth()}}
+{\footnotesize\ttfamily qreal app\+::\+App\+State\+::selected\+Width (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Simple getter. \begin{DoxyReturn}{Returns}
+m\+\_\+selected\+Width 
+\end{DoxyReturn}
+
+
+Definition at line 104 of file appstate.\+h.
+
+\mbox{\Hypertarget{classapp_1_1_app_state_afad9c73d20d2ebe623a877eb9558570f}\label{classapp_1_1_app_state_afad9c73d20d2ebe623a877eb9558570f}} 
+\index{app\+::\+App\+State@{app\+::\+App\+State}!selected\+Width\+Changed@{selected\+Width\+Changed}}
+\index{selected\+Width\+Changed@{selected\+Width\+Changed}!app\+::\+App\+State@{app\+::\+App\+State}}
+\subsubsection{\texorpdfstring{selected\+Width\+Changed}{selectedWidthChanged}}
+{\footnotesize\ttfamily void app\+::\+App\+State\+::selected\+Width\+Changed (\begin{DoxyParamCaption}\item[{qreal}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+\mbox{\Hypertarget{classapp_1_1_app_state_a3e246deb0691d9b0692da546e65c707c}\label{classapp_1_1_app_state_a3e246deb0691d9b0692da546e65c707c}} 
+\index{app\+::\+App\+State@{app\+::\+App\+State}!set\+Selected\+Color@{set\+Selected\+Color}}
+\index{set\+Selected\+Color@{set\+Selected\+Color}!app\+::\+App\+State@{app\+::\+App\+State}}
+\subsubsection{\texorpdfstring{set\+Selected\+Color}{setSelectedColor}}
+{\footnotesize\ttfamily void app\+::\+App\+State\+::set\+Selected\+Color (\begin{DoxyParamCaption}\item[{Q\+Color}]{selected\+Color }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [slot]}}
+
+Simple setter for selected\+Color 
+
+Definition at line 53 of file appstate.\+h.
+
+\mbox{\Hypertarget{classapp_1_1_app_state_ad0d673e923cf52550d08741ccfabbccf}\label{classapp_1_1_app_state_ad0d673e923cf52550d08741ccfabbccf}} 
+\index{app\+::\+App\+State@{app\+::\+App\+State}!set\+Selected\+Heigth@{set\+Selected\+Heigth}}
+\index{set\+Selected\+Heigth@{set\+Selected\+Heigth}!app\+::\+App\+State@{app\+::\+App\+State}}
+\subsubsection{\texorpdfstring{set\+Selected\+Heigth}{setSelectedHeigth}}
+{\footnotesize\ttfamily void app\+::\+App\+State\+::set\+Selected\+Heigth (\begin{DoxyParamCaption}\item[{qreal}]{selected\+Height }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Simple setter for selected\+Height 
+
+Definition at line 25 of file appstate.\+cpp.
+
+\mbox{\Hypertarget{classapp_1_1_app_state_a2ce0da74b5c7c3e307f0b55ca6783c58}\label{classapp_1_1_app_state_a2ce0da74b5c7c3e307f0b55ca6783c58}} 
+\index{app\+::\+App\+State@{app\+::\+App\+State}!set\+Selected\+Position@{set\+Selected\+Position}}
+\index{set\+Selected\+Position@{set\+Selected\+Position}!app\+::\+App\+State@{app\+::\+App\+State}}
+\subsubsection{\texorpdfstring{set\+Selected\+Position}{setSelectedPosition}}
+{\footnotesize\ttfamily void app\+::\+App\+State\+::set\+Selected\+Position (\begin{DoxyParamCaption}\item[{Q\+Point}]{selected\+Position }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [slot]}}
+
+Simple setter for selected\+Position 
+
+Definition at line 67 of file appstate.\+h.
+
+\mbox{\Hypertarget{classapp_1_1_app_state_a14b1cf39be8be49f16baa526949fd564}\label{classapp_1_1_app_state_a14b1cf39be8be49f16baa526949fd564}} 
+\index{app\+::\+App\+State@{app\+::\+App\+State}!set\+Selected\+Shape@{set\+Selected\+Shape}}
+\index{set\+Selected\+Shape@{set\+Selected\+Shape}!app\+::\+App\+State@{app\+::\+App\+State}}
+\subsubsection{\texorpdfstring{set\+Selected\+Shape}{setSelectedShape}}
+{\footnotesize\ttfamily void app\+::\+App\+State\+::set\+Selected\+Shape (\begin{DoxyParamCaption}\item[{Q\+Abstract\+Graphics\+Shape\+Item $\ast$}]{selected\+Shape }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [slot]}}
+
+Simple setter for selected\+Shape 
+
+Definition at line 73 of file appstate.\+h.
+
+\mbox{\Hypertarget{classapp_1_1_app_state_a65d839605a7f6926bc2d46534b20ec8c}\label{classapp_1_1_app_state_a65d839605a7f6926bc2d46534b20ec8c}} 
+\index{app\+::\+App\+State@{app\+::\+App\+State}!set\+Selected\+Tool@{set\+Selected\+Tool}}
+\index{set\+Selected\+Tool@{set\+Selected\+Tool}!app\+::\+App\+State@{app\+::\+App\+State}}
+\subsubsection{\texorpdfstring{set\+Selected\+Tool}{setSelectedTool}}
+{\footnotesize\ttfamily void app\+::\+App\+State\+::set\+Selected\+Tool (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classapp_1_1_app_state_aa641298e5827611da2512591c4a0e966}{Tool}}}]{seleccted\+Tool }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Simple setter for selected\+Tool 
+
+Definition at line 12 of file appstate.\+cpp.
+
+\mbox{\Hypertarget{classapp_1_1_app_state_aa7d1b711173cc1ccce7b747d493aa549}\label{classapp_1_1_app_state_aa7d1b711173cc1ccce7b747d493aa549}} 
+\index{app\+::\+App\+State@{app\+::\+App\+State}!set\+Selected\+Width@{set\+Selected\+Width}}
+\index{set\+Selected\+Width@{set\+Selected\+Width}!app\+::\+App\+State@{app\+::\+App\+State}}
+\subsubsection{\texorpdfstring{set\+Selected\+Width}{setSelectedWidth}}
+{\footnotesize\ttfamily void app\+::\+App\+State\+::set\+Selected\+Width (\begin{DoxyParamCaption}\item[{qreal}]{selected\+Width }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+Simple setter for selected\+Width 
+
+Definition at line 19 of file appstate.\+cpp.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classapp_1_1_app_state_a5ad9b96983f21e5718f84d1571f15b7b}\label{classapp_1_1_app_state_a5ad9b96983f21e5718f84d1571f15b7b}} 
+\index{app\+::\+App\+State@{app\+::\+App\+State}!m\+\_\+selected\+Color@{m\+\_\+selected\+Color}}
+\index{m\+\_\+selected\+Color@{m\+\_\+selected\+Color}!app\+::\+App\+State@{app\+::\+App\+State}}
+\subsubsection{\texorpdfstring{m\+\_\+selected\+Color}{m\_selectedColor}}
+{\footnotesize\ttfamily Q\+Color app\+::\+App\+State\+::m\+\_\+selected\+Color\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+color of shape 
+
+
+
+Definition at line 39 of file appstate.\+h.
+
+\mbox{\Hypertarget{classapp_1_1_app_state_a22f0a67d5db0c430d32306383491d316}\label{classapp_1_1_app_state_a22f0a67d5db0c430d32306383491d316}} 
+\index{app\+::\+App\+State@{app\+::\+App\+State}!m\+\_\+selected\+Height@{m\+\_\+selected\+Height}}
+\index{m\+\_\+selected\+Height@{m\+\_\+selected\+Height}!app\+::\+App\+State@{app\+::\+App\+State}}
+\subsubsection{\texorpdfstring{m\+\_\+selected\+Height}{m\_selectedHeight}}
+{\footnotesize\ttfamily qreal app\+::\+App\+State\+::m\+\_\+selected\+Height =55\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+height of shape 
+
+
+
+Definition at line 40 of file appstate.\+h.
+
+\mbox{\Hypertarget{classapp_1_1_app_state_a08af1ba9a3d291aa855e84419588db4f}\label{classapp_1_1_app_state_a08af1ba9a3d291aa855e84419588db4f}} 
+\index{app\+::\+App\+State@{app\+::\+App\+State}!m\+\_\+selected\+Position@{m\+\_\+selected\+Position}}
+\index{m\+\_\+selected\+Position@{m\+\_\+selected\+Position}!app\+::\+App\+State@{app\+::\+App\+State}}
+\subsubsection{\texorpdfstring{m\+\_\+selected\+Position}{m\_selectedPosition}}
+{\footnotesize\ttfamily Q\+Point app\+::\+App\+State\+::m\+\_\+selected\+Position\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+position of shape 
+
+
+
+Definition at line 42 of file appstate.\+h.
+
+\mbox{\Hypertarget{classapp_1_1_app_state_a02857da24d9d464ea4e1ffcab7f3c5cf}\label{classapp_1_1_app_state_a02857da24d9d464ea4e1ffcab7f3c5cf}} 
+\index{app\+::\+App\+State@{app\+::\+App\+State}!m\+\_\+selected\+Shape@{m\+\_\+selected\+Shape}}
+\index{m\+\_\+selected\+Shape@{m\+\_\+selected\+Shape}!app\+::\+App\+State@{app\+::\+App\+State}}
+\subsubsection{\texorpdfstring{m\+\_\+selected\+Shape}{m\_selectedShape}}
+{\footnotesize\ttfamily Q\+Abstract\+Graphics\+Shape\+Item$\ast$ app\+::\+App\+State\+::m\+\_\+selected\+Shape\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+shape 
+
+
+
+Definition at line 43 of file appstate.\+h.
+
+\mbox{\Hypertarget{classapp_1_1_app_state_a80f8f7a574b269f73119edd2ed96f192}\label{classapp_1_1_app_state_a80f8f7a574b269f73119edd2ed96f192}} 
+\index{app\+::\+App\+State@{app\+::\+App\+State}!m\+\_\+selected\+Tool@{m\+\_\+selected\+Tool}}
+\index{m\+\_\+selected\+Tool@{m\+\_\+selected\+Tool}!app\+::\+App\+State@{app\+::\+App\+State}}
+\subsubsection{\texorpdfstring{m\+\_\+selected\+Tool}{m\_selectedTool}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classapp_1_1_app_state_aa641298e5827611da2512591c4a0e966}{Tool}} app\+::\+App\+State\+::m\+\_\+selected\+Tool\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Tool of shape. 
+
+
+
+Definition at line 38 of file appstate.\+h.
+
+\mbox{\Hypertarget{classapp_1_1_app_state_ad90790bef930b14bdee28a7fb2988c85}\label{classapp_1_1_app_state_ad90790bef930b14bdee28a7fb2988c85}} 
+\index{app\+::\+App\+State@{app\+::\+App\+State}!m\+\_\+selected\+Width@{m\+\_\+selected\+Width}}
+\index{m\+\_\+selected\+Width@{m\+\_\+selected\+Width}!app\+::\+App\+State@{app\+::\+App\+State}}
+\subsubsection{\texorpdfstring{m\+\_\+selected\+Width}{m\_selectedWidth}}
+{\footnotesize\ttfamily qreal app\+::\+App\+State\+::m\+\_\+selected\+Width =55\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+width of shape 
+
+
+
+Definition at line 41 of file appstate.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{appstate_8h}{appstate.\+h}}\item 
+\mbox{\hyperlink{appstate_8cpp}{appstate.\+cpp}}\end{DoxyCompactItemize}

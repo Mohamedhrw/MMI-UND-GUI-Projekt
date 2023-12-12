@@ -1,0 +1,204 @@
+\hypertarget{classapp_1_1_app}{}\section{app\+:\+:App Class Reference}
+\label{classapp_1_1_app}\index{app\+::\+App@{app\+::\+App}}
+
+
+The \mbox{\hyperlink{classapp_1_1_app}{App}} class it is a basic Point for drawing Programm.  
+
+
+
+
+{\ttfamily \#include $<$app.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classapp_1_1_app_a4a289c6cb8f8d34895492cc66ed0be8e}{App}} ()
+\item 
+\mbox{\hyperlink{classapp_1_1_app_ac5e7d7e1bf46f87ea894830d8aa2cc08}{$\sim$\+App}} ()
+\item 
+Q\+Graphics\+Scene $\ast$ \mbox{\hyperlink{classapp_1_1_app_ad1cdc5d0a6c5017548fcdc7f86a2f496}{scene}} ()
+\begin{DoxyCompactList}\small\item\em scene \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classapp_1_1_app_a4ce3fa5bea946dbe89a6a451768a9dc4}{set\+Scene}} (\mbox{\hyperlink{class_scene}{Scene}} $\ast$\mbox{\hyperlink{classapp_1_1_app_ad1cdc5d0a6c5017548fcdc7f86a2f496}{scene}})
+\begin{DoxyCompactList}\small\item\em set\+Scene \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classapp_1_1_app_state}{App\+State}} $\ast$ \mbox{\hyperlink{classapp_1_1_app_a6bbccc1f287168e3514cd390aea73d50}{app\+State}} ()
+\begin{DoxyCompactList}\small\item\em get\+App\+State \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classapp_1_1_app_afd4230600c1a17e7b02764acd132de5b}{set\+App\+State}} (\mbox{\hyperlink{classapp_1_1_app_state}{App\+State}} $\ast$appstate)
+\begin{DoxyCompactList}\small\item\em set\+App\+State \end{DoxyCompactList}\item 
+slots void \mbox{\hyperlink{classapp_1_1_app_aca8be846f8cd12968ccbefcc1ce43a4f}{onn\+Canvas\+Clicked}} ()
+\begin{DoxyCompactList}\small\item\em onn\+Canvas\+Clicked This Function is responsble to reacte on a User Event so he checke out what the User have clicked and draw a Shape in the Container a Clicked Shape can be a Circle or Rectangle or Square \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Graphics\+Scene $\ast$ \mbox{\hyperlink{classapp_1_1_app_a76e6e4afa31f44b93cbbbbc3f137ec97}{m\+\_\+scene}}
+\begin{DoxyCompactList}\small\item\em scene of opject \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classapp_1_1_app_state}{App\+State}} $\ast$ \mbox{\hyperlink{classapp_1_1_app_afab7fee5fb8023e0ebcb1dfeb04de85d}{m\+\_\+app\+State}}
+\begin{DoxyCompactList}\small\item\em scene of object \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \mbox{\hyperlink{classapp_1_1_app}{App}} class it is a basic Point for drawing Programm. 
+
+\begin{DoxyAuthor}{Author}
+Mohamed 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+04.\+12.\+2018 
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+
+
+Definition at line 16 of file app.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classapp_1_1_app_a4a289c6cb8f8d34895492cc66ed0be8e}\label{classapp_1_1_app_a4a289c6cb8f8d34895492cc66ed0be8e}} 
+\index{app\+::\+App@{app\+::\+App}!App@{App}}
+\index{App@{App}!app\+::\+App@{app\+::\+App}}
+\subsubsection{\texorpdfstring{App()}{App()}}
+{\footnotesize\ttfamily app\+::\+App\+::\+App (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 9 of file app.\+cpp.
+
+\mbox{\Hypertarget{classapp_1_1_app_ac5e7d7e1bf46f87ea894830d8aa2cc08}\label{classapp_1_1_app_ac5e7d7e1bf46f87ea894830d8aa2cc08}} 
+\index{app\+::\+App@{app\+::\+App}!````~App@{$\sim$\+App}}
+\index{````~App@{$\sim$\+App}!app\+::\+App@{app\+::\+App}}
+\subsubsection{\texorpdfstring{$\sim$\+App()}{~App()}}
+{\footnotesize\ttfamily app\+::\+App\+::$\sim$\+App (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 15 of file app.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classapp_1_1_app_a6bbccc1f287168e3514cd390aea73d50}\label{classapp_1_1_app_a6bbccc1f287168e3514cd390aea73d50}} 
+\index{app\+::\+App@{app\+::\+App}!app\+State@{app\+State}}
+\index{app\+State@{app\+State}!app\+::\+App@{app\+::\+App}}
+\subsubsection{\texorpdfstring{app\+State()}{appState()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classapp_1_1_app_state}{App\+State}}$\ast$ app\+::\+App\+::app\+State (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+get\+App\+State 
+
+Simple getter \begin{DoxyReturn}{Returns}
+m\+\_\+app\+State 
+\end{DoxyReturn}
+
+
+Definition at line 46 of file app.\+h.
+
+\mbox{\Hypertarget{classapp_1_1_app_aca8be846f8cd12968ccbefcc1ce43a4f}\label{classapp_1_1_app_aca8be846f8cd12968ccbefcc1ce43a4f}} 
+\index{app\+::\+App@{app\+::\+App}!onn\+Canvas\+Clicked@{onn\+Canvas\+Clicked}}
+\index{onn\+Canvas\+Clicked@{onn\+Canvas\+Clicked}!app\+::\+App@{app\+::\+App}}
+\subsubsection{\texorpdfstring{onn\+Canvas\+Clicked()}{onnCanvasClicked()}}
+{\footnotesize\ttfamily void app\+::\+App\+::onn\+Canvas\+Clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+onn\+Canvas\+Clicked This Function is responsble to reacte on a User Event so he checke out what the User have clicked and draw a Shape in the Container a Clicked Shape can be a Circle or Rectangle or Square 
+
+Create a circle and add it to the list
+
+Create a Rectangle and add it to the list
+
+Definition at line 19 of file app.\+cpp.
+
+\mbox{\Hypertarget{classapp_1_1_app_ad1cdc5d0a6c5017548fcdc7f86a2f496}\label{classapp_1_1_app_ad1cdc5d0a6c5017548fcdc7f86a2f496}} 
+\index{app\+::\+App@{app\+::\+App}!scene@{scene}}
+\index{scene@{scene}!app\+::\+App@{app\+::\+App}}
+\subsubsection{\texorpdfstring{scene()}{scene()}}
+{\footnotesize\ttfamily Q\+Graphics\+Scene$\ast$ app\+::\+App\+::scene (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+scene 
+
+simple gitter \begin{DoxyReturn}{Returns}
+m\+\_\+scene 
+\end{DoxyReturn}
+
+
+Definition at line 30 of file app.\+h.
+
+\mbox{\Hypertarget{classapp_1_1_app_afd4230600c1a17e7b02764acd132de5b}\label{classapp_1_1_app_afd4230600c1a17e7b02764acd132de5b}} 
+\index{app\+::\+App@{app\+::\+App}!set\+App\+State@{set\+App\+State}}
+\index{set\+App\+State@{set\+App\+State}!app\+::\+App@{app\+::\+App}}
+\subsubsection{\texorpdfstring{set\+App\+State()}{setAppState()}}
+{\footnotesize\ttfamily void app\+::\+App\+::set\+App\+State (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classapp_1_1_app_state}{App\+State}} $\ast$}]{appstate }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+set\+App\+State 
+
+Simple sitter 
+\begin{DoxyParams}{Parameters}
+{\em appstate} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 54 of file app.\+h.
+
+\mbox{\Hypertarget{classapp_1_1_app_a4ce3fa5bea946dbe89a6a451768a9dc4}\label{classapp_1_1_app_a4ce3fa5bea946dbe89a6a451768a9dc4}} 
+\index{app\+::\+App@{app\+::\+App}!set\+Scene@{set\+Scene}}
+\index{set\+Scene@{set\+Scene}!app\+::\+App@{app\+::\+App}}
+\subsubsection{\texorpdfstring{set\+Scene()}{setScene()}}
+{\footnotesize\ttfamily void app\+::\+App\+::set\+Scene (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_scene}{Scene}} $\ast$}]{scene }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+set\+Scene 
+
+Simple sitter 
+\begin{DoxyParams}{Parameters}
+{\em scene} & \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 38 of file app.\+h.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classapp_1_1_app_afab7fee5fb8023e0ebcb1dfeb04de85d}\label{classapp_1_1_app_afab7fee5fb8023e0ebcb1dfeb04de85d}} 
+\index{app\+::\+App@{app\+::\+App}!m\+\_\+app\+State@{m\+\_\+app\+State}}
+\index{m\+\_\+app\+State@{m\+\_\+app\+State}!app\+::\+App@{app\+::\+App}}
+\subsubsection{\texorpdfstring{m\+\_\+app\+State}{m\_appState}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classapp_1_1_app_state}{App\+State}}$\ast$ app\+::\+App\+::m\+\_\+app\+State\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+scene of object 
+
+
+
+Definition at line 20 of file app.\+h.
+
+\mbox{\Hypertarget{classapp_1_1_app_a76e6e4afa31f44b93cbbbbc3f137ec97}\label{classapp_1_1_app_a76e6e4afa31f44b93cbbbbc3f137ec97}} 
+\index{app\+::\+App@{app\+::\+App}!m\+\_\+scene@{m\+\_\+scene}}
+\index{m\+\_\+scene@{m\+\_\+scene}!app\+::\+App@{app\+::\+App}}
+\subsubsection{\texorpdfstring{m\+\_\+scene}{m\_scene}}
+{\footnotesize\ttfamily Q\+Graphics\+Scene$\ast$ app\+::\+App\+::m\+\_\+scene\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+scene of opject 
+
+
+
+Definition at line 19 of file app.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{app_8h}{app.\+h}}\item 
+\mbox{\hyperlink{app_8cpp}{app.\+cpp}}\end{DoxyCompactItemize}
